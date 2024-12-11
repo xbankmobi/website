@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.header a {
+	color: black;
+}
+
+.header {
+	margin-bottom: 2%;
+	background-color: #ffffff;
+	height: 20%;
+	width: 100%;
+	
+}
+
+.Mascot {
+	position: absolute;
+	left: 35%;
+	width: 9%;
+	
+}
+
+.header p1 {
+	position: absolute;
+	top: 4%;
+	left: 44%;
+	font-family: Ghoxdo;
+	font-size: 48px;
+}
+
+.header p2 {
+	position: absolute ;
+	top: 12%;
+	left: 44%;
+	font-family: Ghoxdo;
+	font-size: 18px;
+}
+
+
+.Menu {
+	margin-top: 3%;
+	float: right;
+	height:20%;
+	width:30%;
+}
+
+
+.Menu p3 {
+	margin-left: 15%;
+	font-family: Ghoxdo;
+	font-size: 18px;
+}
+
+
+.Content {
+	background-color: #ffffff;
+	height: 350%;
+	width: 100%;
+}
+
+.Head_content p1 {
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 12%;
+	font-family: Ghoxdo;
+	font-size: 60px;
+}
+
+.Head_content {
+	margin-left: 10%;
+	float: left;
+	background-color: #d4f0f1;
+	height: 30%;
+	width: 80%;
+	border-radius: 90px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.Content_logo {
+	margin-left: 6%;
+	margin-top: 10%;
+	float: left;
+	width: 40%;
+}
+.Head_content p2 {
+	float: left;
+	margin-top: 16.5%;
+	margin-left: 8%;
+	font-weight: 600;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 1.6;
+}
