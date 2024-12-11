@@ -64,8 +64,8 @@ a {
 
 .Head_content p1 {
 	position: absolute;
-	margin-top: 3%;
-	margin-left: 12%;
+	top: 33%;
+	left: 30%;
 	font-family: Ghoxdo;
 	font-size: 60px;
 }
