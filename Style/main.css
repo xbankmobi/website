@@ -5,6 +5,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 .header a {
@@ -28,6 +29,7 @@ a {
 	position: absolute;
 	top: 4%;
 	left: 44%;
+	color: #2a2a2a;
 	font-family: Ghoxdo;
 	font-size: 48px;
 }
@@ -36,6 +38,7 @@ a {
 	position: absolute ;
 	top: 12%;
 	left: 44%;
+	color: #2a2a2a;
 	font-family: Ghoxdo;
 	font-size: 18px;
 }
@@ -51,8 +54,10 @@ a {
 
 .Menu p3 {
 	margin-left: 15%;
+	color: #2a2a2a;
 	font-family: Ghoxdo;
 	font-size: 18px;
+
 }
 
 
@@ -71,7 +76,17 @@ a {
 
 .H1 p1 {
 	font-family: Ghoxdo;
+	color: #2a2a2a;
 	font-size: 60px;
+}
+
+
+.Content_logo {
+	margin-left: 6%;
+	margin-top: 1%;
+	float: left;
+	width: 40%;
+	transition: 0.5s;
 }
 
 .Head_content {
@@ -81,32 +96,68 @@ a {
 	height: 30%;
 	width: 80%;
 	border-radius: 90px;
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 30px;
+	transition: 0.5s;
 }
 
-.Content_logo {
-	margin-left: 6%;
-	margin-top: 1%;
-	float: left;
-	width: 40%;
+.Head_content:hover {
+
+	width: 90%;
+	margin-left: 5%;
+}
+
+.Head_content:hover .Content_logo  {
+	margin-top: -2%;
+}
+
+.Head_content:hover p2 {
+	margin-top: 4%;
 }
 
 .Head_content p2 {
 	float: left;
 	margin-top: 7.5%;
 	margin-left: 8%;
-	font-weight: 600;
+	font-weight: 700;
+	color: #2a2a2a;
 	font-family: Montserrat;
 	font-size: 18px;
 	line-height: 1.6;
+	transition: 0.5s;
+}
+
+.Head_content p3 {
+	float: right;
+	margin-top: 6%;
+	margin-right: 19%;
+	background-color: #2a2a2a;
+	font-family: Ghoxdo;
+	color: white;
+	font-size: 32px;
+	font-weight: 300;
+	border-radius: 60px;
+	padding: 1.4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	transition: 0.45s ;
+}
+
+.Head_content p3:hover {
+	background-color: #fcb9a9;
+	color: #2a2a2a ;
+	
+} 
+
+.Head_content:hover p3 {
+	margin-right: 21.5%;
+	padding-left: 7%;
+	padding-right: 7%;
 }
 
 .Head_2 {
 	float: left;
 	margin-top: 5%;
 	margin-left: 10%;
-	background-color: cce2cb;
+	background-color: #cce2cb;
 	height: 30%;
 	width: 80%;
 	border-radius: 60px;
