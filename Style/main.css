@@ -62,10 +62,14 @@ a {
 	width: 100%;
 }
 
-.Head_content p1 {
-	position: absolute;
-	top: 33%;
-	left: 30%;
+.H1 {
+	margin-top: 8%;
+	width: 100%;
+	text-align: center;
+
+}
+
+.H1 p1 {
 	font-family: Ghoxdo;
 	font-size: 60px;
 }
@@ -83,14 +87,14 @@ a {
 
 .Content_logo {
 	margin-left: 6%;
-	margin-top: 10%;
+	margin-top: 1%;
 	float: left;
 	width: 40%;
 }
 
 .Head_content p2 {
 	float: left;
-	margin-top: 16.5%;
+	margin-top: 7.5%;
 	margin-left: 8%;
 	font-weight: 600;
 	font-family: Montserrat;
