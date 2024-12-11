@@ -185,9 +185,34 @@ a {
 	margin-left: 4%;
 }
 
+.Head_2 p2 {
+	float: right;
+	margin-right: 3%;
+	margin-top: 9%;
+	font-weight: 600;
+	color: #2a2a2a;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 1.4;
+}
 
+.card_rnd {
+	float: right;
+	width: 35%;
+	margin-top: 12%;
+	margin-right: 4%;
+}
 
-
+.Head_2 p3 {
+	float: left;
+	margin-left: 3%;
+	margin-top: 9%;
+	font-weight: 600;
+	color: #2a2a2a;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 1.4;
+}
 
 
 
