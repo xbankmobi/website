@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Ghoxdo';
+	src: url('Ghoxdo.ttf') format('ttf') ;
+}
+
 body {
 	margin: 0;
 }
@@ -30,7 +35,7 @@ a {
 	position: absolute;
 	top: 4%;
 	left: 44%;
-	font-family: Ghoxdo;
+	font-family: 'Ghoxdo';
 	font-size: 48px;
 }
 
@@ -38,7 +43,7 @@ a {
 	position: absolute ;
 	top: 12%;
 	left: 44%;
-	font-family: Ghoxdo;
+	font-family: 'Ghoxdo';
 	font-size: 18px;
 }
 
@@ -53,7 +58,7 @@ a {
 
 .Menu p3 {
 	margin-left: 15%;
-	font-family: Ghoxdo;
+	font-family: 'Ghoxdo';
 	font-size: 18px;
 }
 
@@ -68,7 +73,7 @@ a {
 	position: absolute;
 	margin-top: 3%;
 	margin-left: 12%;
-	font-family: Ghoxdo;
+	font-family: 'Ghoxdo';
 	font-size: 60px;
 }
 
