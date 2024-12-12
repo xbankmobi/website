@@ -79,7 +79,7 @@ a {
 
 .Content {
 	background-color: #ffffff;
-	height: 350%;
+	height: 370%;
 	width: 100%;
 }
 
@@ -173,9 +173,17 @@ a {
 	margin-top: 5%;
 	margin-left: 10%;
 	background-color: #cce2cb;
-	height: 45%;
+	height: 50%;
 	width: 80%;
 	border-radius: 90px;
+	transition: 0.5s;
+}
+
+.Head_2:hover {
+
+	width: 90%;
+	margin-left: 5%;
+	
 }
 
 .card_un {
@@ -183,6 +191,12 @@ a {
 	width: 45%;
 	margin-top: 4%;
 	margin-left: 4%;
+	transition: 0.5s;
+}
+
+.Head_2:hover .card_un {
+	margin-top: -1%;
+	margin-left: 2%;
 }
 
 .Head_2 p2 {
@@ -194,6 +208,12 @@ a {
 	font-family: Montserrat;
 	font-size: 18px;
 	line-height: 1.4;
+	transition: 0.5s;
+}
+
+.Head_2:hover p2{
+	margin-right: 7%;
+	margin-top: 5%;
 }
 
 .card_rnd {
@@ -201,6 +221,7 @@ a {
 	width: 35%;
 	margin-top: 12%;
 	margin-right: 4%;
+	transition: 0.5s;
 }
 
 .Head_2 p3 {
@@ -212,8 +233,50 @@ a {
 	font-family: Montserrat;
 	font-size: 18px;
 	line-height: 1.4;
+	transition: 0.5s;
 }
 
+.Head_2:cover p3 {
+	margin-left: 20%;
+	margin-top: 6%;
+	font-size: 20px; 
+/*	не происходит анимация текста*/
+	
+}
+
+.Head_2 p4 {
+	float: left;
+	margin-top: 8%;
+	margin-left: 35%;
+	background-color: #2a2a2a;
+	font-family: Ghoxdo;
+	color: white;
+	font-size: 32px;
+	font-weight: 300;
+	border-radius: 60px;
+	padding: 1.5%;
+	padding-left: 6%;
+	padding-right: 6%;
+	transition: 0.8s;
+}
+
+
+.Head_2:hover p4{
+	margin-top: 7%;
+	margin-left: 33%;
+	background-color: #2a2a2a;
+	color: #ghostwhite ;
+	border-radius: 90px;
+	padding: 1.8%;
+	padding-left: 7%;
+	padding-right: 7%;
+	font-size: 38px;
+} 
+
+.Head_2 p4:hover {
+	background-color: #f3b0c2;
+	color: #ffffff ;
+}
 
 
 
@@ -230,7 +293,7 @@ a {
 
 .Head_3 {
 	float: left;
-	margin-top: 5%;
+
 	margin-left: 10%;
 	background-color: #ffdbcb;
 	height: 30%;
