@@ -214,6 +214,7 @@ a {
 .Head_2:hover p2{
 	margin-right: 7%;
 	margin-top: 5%;
+	font-size: 20px;
 }
 
 .card_rnd {
@@ -236,11 +237,11 @@ a {
 	transition: 0.5s;
 }
 
-.Head_2:cover p3 {
-	margin-left: 20%;
-	margin-top: 6%;
+.Head_2:hover p3 {
+	margin-left: 6%;
+	margin-top: 8.5%;
 	font-size: 20px; 
-/*	не происходит анимация текста*/
+
 	
 }
 
@@ -293,7 +294,7 @@ a {
 
 .Head_3 {
 	float: left;
-
+	margin-top: 10%;
 	margin-left: 10%;
 	background-color: #ffdbcb;
 	height: 30%;
